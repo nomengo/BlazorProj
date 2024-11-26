@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\AppDbContext.cs",
+              "RelativeToolTip": "BlazorStajApplication\\AppDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:33:50.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Attribute.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Attribute.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Attribute.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Attribute.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Attribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:31:24.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Program.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:35:44.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\appsettings.json",
+              "RelativeToolTip": "BlazorStajApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T14:36:37.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Salary.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Salary.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Salary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:30:27.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Attendance.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:30:16.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Tasks.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Tasks.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:30:06.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Project.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:29:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Department.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:29:29.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Models\\Employee.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:28:24.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 92,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

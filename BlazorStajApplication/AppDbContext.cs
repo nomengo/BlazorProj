@@ -1,0 +1,60 @@
+﻿namespace BlazorStajApplication
+{
+    using BlazorStajApplication.Models;
+    using Microsoft.EntityFrameworkCore;
+
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+        // DbSet Tanımlamaları
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<Tasks> Tasks { get; set; }
+        public DbSet<Attendance> Attendances { get; set; }
+        public DbSet<Salary> Salaries { get; set; }
+        public DbSet<Attribute> Attributes { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Employee ve Attribute arasındaki ilişki (EAV yapısı)
+            modelBuilder.Entity<Attribute>()
+                .HasOne(a => a.Employee)
+                .WithMany(e => e.Attributes)
+                .HasForeignKey(a => a.EmployeeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Project ve Employee arasındaki ilişki
+            modelBuilder.Entity<Project>()
+                .HasOne(p => p.ResponsibleEmployee)
+                .WithMany()
+                .HasForeignKey(p => p.ResponsibleEmployeeId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Task ve Employee arasındaki ilişki
+            modelBuilder.Entity<Tasks>()
+                .HasOne(t => t.AssignedEmployee)
+                .WithMany()
+                .HasForeignKey(t => t.AssignedEmployeeId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Attendance ve Employee arasındaki ilişki
+            modelBuilder.Entity<Attendance>()
+                .HasOne(a => a.Employee)
+                .WithMany()
+                .HasForeignKey(a => a.EmployeeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Salary ve Employee arasındaki ilişki
+            modelBuilder.Entity<Salary>()
+                .HasOne(s => s.Employee)
+                .WithMany()
+                .HasForeignKey(s => s.EmployeeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            base.OnModelCreating(modelBuilder);
+        }
+    }
+
+}
