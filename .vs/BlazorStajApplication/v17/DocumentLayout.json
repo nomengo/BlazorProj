@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "BlazorStajApplication\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\AppDbContext.cs",
               "RelativeToolTip": "BlazorStajApplication\\AppDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T14:33:50.277Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "BlazorStajApplication\\Models\\Attribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:31:24.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T14:31:24.154Z"
             },
             {
               "$type": "Document",
@@ -164,8 +163,7 @@
               "RelativeToolTip": "BlazorStajApplication\\Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:29:29.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T14:29:29.697Z"
             },
             {
               "$type": "Document",
