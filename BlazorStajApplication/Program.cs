@@ -1,5 +1,8 @@
-using BlazorStajApplication;
+using BlazorStajApplication.Application.Commands.Handlers;
+using BlazorStajApplication.Application.Queries.Handlers;
 using BlazorStajApplication.Components;
+using BlazorStajApplication.Domain.Repositories;
+using BlazorStajApplication.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +14,11 @@ builder.Services.AddRazorComponents()
 // DbContext Konfigürasyonu (SQL Server Örneði)
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Interface'ler , Repolar , Command ve Query
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<CreateEmployeeCommandHandler>();
+builder.Services.AddScoped<GetAllEmployeesQueryHandler>();
 
 var app = builder.Build();
 

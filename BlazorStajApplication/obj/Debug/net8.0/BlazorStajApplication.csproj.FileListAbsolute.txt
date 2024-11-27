@@ -165,3 +165,4 @@ C:\Users\nomen\source\repos\BlazorStajApplication\BlazorStajApplication\obj\Debu
 C:\Users\nomen\source\repos\BlazorStajApplication\BlazorStajApplication\obj\Debug\net8.0\BlazorStajApplication.pdb
 C:\Users\nomen\source\repos\BlazorStajApplication\BlazorStajApplication\obj\Debug\net8.0\BlazorStajApplication.genruntimeconfig.cache
 C:\Users\nomen\source\repos\BlazorStajApplication\BlazorStajApplication\obj\Debug\net8.0\ref\BlazorStajApplication.dll
+C:\Users\nomen\source\repos\BlazorStajApplication\BlazorStajApplication\obj\Debug\net8.0\BlazorStajApplication.sourcelink.json

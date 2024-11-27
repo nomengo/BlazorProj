@@ -1,6 +1,6 @@
-﻿namespace BlazorStajApplication
+﻿namespace BlazorStajApplication.Infrastructure.Persistence
 {
-    using BlazorStajApplication.Models;
+    using BlazorStajApplication.Domain.Entities;
     using Microsoft.EntityFrameworkCore;
 
     public class AppDbContext : DbContext
@@ -24,6 +24,15 @@
                 .WithMany(e => e.Attributes)
                 .HasForeignKey(a => a.EmployeeId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            // Attribute Key alanını zorunlu yapalım
+            /*modelBuilder.Entity<Attribute>()
+                .Property(a => a.Key)
+                .IsRequired();
+
+            modelBuilder.Entity<Attribute>()
+                .Property(a => a.Value)
+                .IsRequired();*/
 
             // Project ve Employee arasındaki ilişki
             modelBuilder.Entity<Project>()

@@ -1,0 +1,49 @@
+﻿@page "/employees"
+@using BlazorStajApplication.Application.Queries
+@using BlazorStajApplication.Application.Queries.Handlers
+@inject GetAllEmployeesQueryHandler QueryHandler
+
+<h3>Employee List</h3>
+
+@if (employees == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Department</th>
+                <th>Start Date</th>
+                <th>Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in employees)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.FirstName</td>
+                    <td>@employee.LastName</td>
+                    <td>@employee.Department</td>
+                    <td>@employee.StartDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<EmployeeDto>? employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = new GetAllEmployeesQuery();
+        employees = await QueryHandler.Handle(query);
+    }
+
+}

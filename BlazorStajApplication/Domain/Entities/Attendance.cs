@@ -1,4 +1,6 @@
-﻿namespace BlazorStajApplication.Models
+﻿
+
+namespace BlazorStajApplication.Domain.Entities
 {
     public class Attendance
     {

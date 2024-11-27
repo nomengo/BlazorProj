@@ -1,0 +1,37 @@
+﻿@page "/create-employee"
+@using BlazorStajApplication.Application.Commands
+@using BlazorStajApplication.Application.Commands.Handlers
+@inject CreateEmployeeCommandHandler CommandHandler
+
+<h3>Create Employee</h3>
+
+<EditForm Model="command" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <div>
+        <label>First Name:</label>
+        <InputText @bind-Value="command.FirstName" />
+    </div>
+    <div>
+        <label>Last Name:</label>
+        <InputText @bind-Value="command.LastName" />
+    </div>
+    <div>
+        <label>Department:</label>
+        <InputText @bind-Value="command.Department" />
+    </div>
+    <div>
+        <label>Start Date:</label>
+        <InputDate @bind-Value="command.StartDate" />
+    </div>
+    <button type="submit">Create</button>
+</EditForm>
+
+@code {
+    private CreateEmployeeCommand command = new();
+
+    private async Task HandleSubmit()
+    {
+        await CommandHandler.Handle(command);
+        // Success notification veya yönlendirme
+    }
+}
