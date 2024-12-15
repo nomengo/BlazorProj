@@ -3,35 +3,80 @@
 @using BlazorStajApplication.Application.Commands.Handlers
 @inject CreateEmployeeCommandHandler CommandHandler
 
-<h3>Create Employee</h3>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3>Create Employee</h3>
+        </div>
+        <div class="card-body">
+            <EditForm Model="command" OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator />
+                <div class="mb-3">
+                    <label class="form-label">First Name:</label>
+                    <InputText class="form-control" @bind-Value="command.FirstName" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Last Name:</label>
+                    <InputText class="form-control" @bind-Value="command.LastName" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Department:</label>
+                    <InputText class="form-control" @bind-Value="command.Department" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Start Date:</label>
+                    <InputDate class="form-control" @bind-Value="command.StartDate" />
+                </div>
+                <button type="submit" class="btn btn-primary">Create</button>
+            </EditForm>
+            @if (successMessage != null)
+            {
+                <div class="alert alert-success mt-3">
+                    @successMessage
+                </div>
+            }
+            @if (errorMessage != null)
+            {
+                <div class="alert alert-success mt-3">
+                    @errorMessage
+                </div>
+            }
+        </div>
+    </div>
+</div>
 
-<EditForm Model="command" OnValidSubmit="HandleSubmit">
-    <DataAnnotationsValidator />
-    <div>
-        <label>First Name:</label>
-        <InputText @bind-Value="command.FirstName" />
-    </div>
-    <div>
-        <label>Last Name:</label>
-        <InputText @bind-Value="command.LastName" />
-    </div>
-    <div>
-        <label>Department:</label>
-        <InputText @bind-Value="command.Department" />
-    </div>
-    <div>
-        <label>Start Date:</label>
-        <InputDate @bind-Value="command.StartDate" />
-    </div>
-    <button type="submit">Create</button>
-</EditForm>
+
 
 @code {
     private CreateEmployeeCommand command = new();
+    private string? successMessage;
+    private string? errorMessage;
 
     private async Task HandleSubmit()
     {
-        await CommandHandler.Handle(command);
-        // Success notification veya yönlendirme
+        try
+        {
+            // Command handler ile çalışan oluşturma işlemi
+            await CommandHandler.Handle(command);
+
+            // Başarı mesajını göster
+            successMessage = "Çalışan Başarıyla eklendi!.";
+            StateHasChanged();
+
+            // Formu sıfırlama
+            command = new CreateEmployeeCommand();
+            StateHasChanged();
+
+            //3 Saniye bekle sonra mesajı kaldır.
+            await Task.Delay(3000);
+            successMessage = null;
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            // Hata mesajı 
+            errorMessage = "Çalışan eklenmeye çalışırken bir hata oluştu!!!.";
+            Console.WriteLine($"Error: {ex.Message}");
+        }
     }
 }

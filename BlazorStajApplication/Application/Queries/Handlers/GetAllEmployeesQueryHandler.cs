@@ -23,7 +23,7 @@ namespace BlazorStajApplication.Application.Queries.Handlers
                 LastName = e.LastName,
                 Department = e.Department,
                 StartDate = e.StartDate
-                /*
+                /* 
                  ,
                 Attributes = e.Attributes.Select(a => new AttributeDto
                 {
@@ -42,7 +42,9 @@ namespace BlazorStajApplication.Application.Queries.Handlers
         public string LastName { get; set; }
         public string Department { get; set; }
         public DateTime StartDate { get; set; }
-        //public List<AttributeDto> Attributes { get; set; }
+        /*
+        public List<AttributeDto> Attributes { get; set; }
+        */
     }
 
     /*

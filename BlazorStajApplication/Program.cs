@@ -1,3 +1,4 @@
+using BlazorStajApplication;
 using BlazorStajApplication.Application.Commands.Handlers;
 using BlazorStajApplication.Application.Queries.Handlers;
 using BlazorStajApplication.Components;
@@ -15,10 +16,8 @@ builder.Services.AddRazorComponents()
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Interface'ler , Repolar , Command ve Query
-builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-builder.Services.AddScoped<CreateEmployeeCommandHandler>();
-builder.Services.AddScoped<GetAllEmployeesQueryHandler>();
+// Interface'ler , Repolar , Command ve Query için short function
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 

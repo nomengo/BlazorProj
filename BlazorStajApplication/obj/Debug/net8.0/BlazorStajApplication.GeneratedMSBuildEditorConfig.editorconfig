@@ -30,12 +30,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateDepartment.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVEZXBhcnRtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateEmployee.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVFbXBsb3llZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateTask.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVUYXNrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/Departments.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXBhcnRtZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/EmployeeDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZURlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/EmployeeEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZUVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/Error.razor]
@@ -48,10 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Routes.razor]

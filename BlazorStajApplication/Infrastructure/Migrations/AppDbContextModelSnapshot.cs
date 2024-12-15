@@ -46,7 +46,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Attendances");
+                    b.ToTable("Attendances", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Attribute", b =>
@@ -72,7 +72,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Attributes");
+                    b.ToTable("Attributes", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Department", b =>
@@ -96,7 +96,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Departments");
+                    b.ToTable("Departments", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Employee", b =>
@@ -124,7 +124,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Project", b =>
@@ -156,7 +156,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasIndex("ResponsibleEmployeeId");
 
-                    b.ToTable("Projects");
+                    b.ToTable("Projects", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Salary", b =>
@@ -186,7 +186,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Salaries");
+                    b.ToTable("Salaries", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Tasks", b =>
@@ -215,7 +215,7 @@ namespace BlazorStajApplication.Migrations
 
                     b.HasIndex("AssignedEmployeeId");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("Tasks", (string)null);
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Models.Attendance", b =>

@@ -1,0 +1,63 @@
+﻿@page "/create-task"
+@using BlazorStajApplication.Application.Commands
+@using BlazorStajApplication.Application.Commands.Handlers
+@inject CreateTasksCommandHandler CommandHandler
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3>Create Task</h3>
+        </div>
+        <div class="card-body">
+            <EditForm Model="command" OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator />
+
+                <div class="mb-3">
+                    <label class="form-label">Task Name:</label>
+                    <InputText class="form-control" @bind-Value="command.Name" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Description:</label>
+                    <InputText class="form-control" @bind-Value="command.Description" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Due Date:</label>
+                    <InputDate class="form-control" @bind-Value="command.DueDate" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Assigned Employee ID:</label>
+                    <InputNumber class="form-control" @bind-Value="command.AssignedEmployeeId" />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Create Task</button>
+            </EditForm>
+
+            @if (successMessage != null)
+            {
+                <div class="alert alert-success mt-3">
+                    @successMessage
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private CreateTasksCommand command = new();
+    private string? successMessage;
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            await CommandHandler.Handle(command);
+            successMessage = "Task has been successfully created!";
+            command = new CreateTasksCommand();
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+}

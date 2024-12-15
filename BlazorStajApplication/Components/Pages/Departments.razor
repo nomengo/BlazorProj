@@ -1,0 +1,47 @@
+﻿@page "/departments"
+@using BlazorStajApplication.Application.Queries
+@using BlazorStajApplication.Application.Queries.Handlers
+@inject GetAllDepartmentsQueryHandler QueryHandler
+
+<h3>Departments</h3>
+
+@if (departments == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Manager</th>
+                <th>Employee Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var department in departments)
+            {
+                <tr>
+                    <td>@department.Id</td>
+                    <td>@department.Name</td>
+                    <td>@department.Manager</td>
+                    <td>@department.EmployeeCount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    // List e olarak çekerken Tam dizini belirt!!!
+    private List<Domain.Entities.Department>? departments;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = new GetAllDepartmentsQuery();
+        departments = await QueryHandler.Handle(query);
+    }
+}
+

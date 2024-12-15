@@ -1,7 +1,6 @@
 ﻿namespace BlazorStajApplication.Application.Queries
 {
-    public class GetAllEmployeesQuery
+    public class GetAllTasksQuery
     {
-
     }
 }

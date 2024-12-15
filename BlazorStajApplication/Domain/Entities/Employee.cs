@@ -44,6 +44,7 @@
         */
 
         // Çalışanın bağlı olduğu departmanı değiştirme
+        /*
         public void ChangeDepartment(string newDepartment)
         {
             if (string.IsNullOrWhiteSpace(newDepartment))
@@ -51,5 +52,6 @@
 
             Department = newDepartment;
         }
+        */
     }
 }

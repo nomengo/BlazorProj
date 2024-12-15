@@ -1,0 +1,58 @@
+﻿@page "/employee/delete/{id:int}"
+@using BlazorStajApplication.Application.Commands
+@using BlazorStajApplication.Application.Commands.Handlers
+@using BlazorStajApplication.Application.Queries
+@using BlazorStajApplication.Application.Queries.Handlers
+@using BlazorStajApplication.Domain.Repositories
+@inject GetEmployeeByIdQueryHandler QueryHandler
+@inject DeleteEmployeeCommandHandler CommandHandler
+@inject ITasksRepository _taskRepository
+@inject NavigationManager Navigation
+
+<h3>Delete Employee</h3>
+
+@if (employee == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <p>Are you sure you want to delete <strong>@employee.FirstName @employee.LastName</strong>?</p>
+
+    @if (relatedTaskCount > 0)
+    {
+        <p class="text-danger">This employee is assigned to @relatedTaskCount tasks. Deleting the employee will also delete these tasks.</p>
+    }
+
+    <button class="btn btn-danger" @onclick="DeleteEmployee">Yes</button>
+    <button class="btn btn-success" @onclick="Cancel">No</button>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private EmployeeUpdateDto? employee;
+    private int relatedTaskCount;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var query = new GetEmployeeByIdQuery { EmployeeId = id };
+        employee = await QueryHandler.Handle(query);
+
+        /*
+        var tasks = await _taskRepository.GetTasksByEmployeeIdAsync(id);
+        relatedTaskCount = tasks.Count;
+        */
+    }
+
+    private async Task DeleteEmployee()
+    {
+        var command = new DeleteEmployeeCommand { Id = id };
+        await CommandHandler.Handle(command);
+        Navigation.NavigateTo("/employees");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/employees");
+    }
+}
