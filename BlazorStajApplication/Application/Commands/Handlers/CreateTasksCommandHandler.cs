@@ -19,7 +19,7 @@ namespace BlazorStajApplication.Application.Commands.Handlers
             // Çalışanın geçerli olup olmadığını kontrol et
             var employee = await _employeeRepository.GetByIdAsync(command.AssignedEmployeeId);
             if (employee == null)
-                throw new ArgumentException("Assigned employee not found.");
+                throw new ArgumentException("Assigned employee not found.");//Employee seçilmemişse konsola hatayı yazdır!
 
             var task = new Tasks
             {

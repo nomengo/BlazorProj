@@ -8,6 +8,9 @@
         public string Department { get; set; } // Çalışanın bağlı olduğu departman
         public DateTime StartDate { get; set; } // İşe başlama tarihi
         public List<Attribute> Attributes { get; set; } // EAV için dinamik nitelikler
+                                                        // One-to-Many ilişki
+        public int? ProjectId { get; set; } // Foreign Key (nullable)
+        public Project? Project { get; set; } // Navigation Property
 
 
         public Employee(string firstName, string lastName, string department, DateTime startDate)
@@ -20,6 +23,22 @@
             Department = department;
             StartDate = startDate;
             //Attributes = new List<Attribute>();
+        }
+
+        // ProjectId ve Project'i ayarlamak için bir metot 
+        public void AssignToProject(Project project)
+        {
+            if (project == null)
+                throw new ArgumentNullException(nameof(project), "Proje null olamaz.");
+
+            ProjectId = project.Id;
+            Project = project;
+        }
+
+        public void RemoveFromProject()
+        {
+            ProjectId = null;
+            Project = null;
         }
 
         // Yeni bir dinamik özellik eklemek için metot

@@ -1,7 +1,10 @@
 ﻿@page "/create-task"
 @using BlazorStajApplication.Application.Commands
 @using BlazorStajApplication.Application.Commands.Handlers
+@using BlazorStajApplication.Application.Queries
+@using BlazorStajApplication.Application.Queries.Handlers
 @inject CreateTasksCommandHandler CommandHandler
+@inject GetAllEmployeesQueryHandler EmployeesQueryHandler
 
 <div class="container mt-5">
     <div class="card">
@@ -25,8 +28,17 @@
                     <InputDate class="form-control" @bind-Value="command.DueDate" />
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Assigned Employee ID:</label>
-                    <InputNumber class="form-control" @bind-Value="command.AssignedEmployeeId" />
+                    <label class="form-label">Assigned Employee:</label>
+                    <select class="form-select" @bind="command.AssignedEmployeeId">
+                        <option value="">Select an Employee</option>
+                        @if (employees != null)
+                        {
+                            @foreach (var employee in employees)
+                            {
+                                <option value="@employee.Id">@employee.FirstName @employee.LastName</option>
+                            }
+                        }
+                    </select>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Create Task</button>
@@ -45,6 +57,13 @@
 @code {
     private CreateTasksCommand command = new();
     private string? successMessage;
+    private List<EmployeeDto>? employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Veritabanındaki çalışanları getir
+        employees = await EmployeesQueryHandler.Handle(new GetAllEmployeesQuery());
+    }
 
     private async Task HandleSubmit()
     {
