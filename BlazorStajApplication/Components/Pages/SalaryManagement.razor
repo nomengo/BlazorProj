@@ -1,0 +1,136 @@
+﻿@page "/salary-management/{employeeId:int}"
+@using BlazorStajApplication.Domain.Entities
+@using BlazorStajApplication.Application.Commands
+@using BlazorStajApplication.Application.Commands.Handlers
+@using BlazorStajApplication.Application.Queries
+@using BlazorStajApplication.Application.Queries.Handlers
+@inject GetSalariesByEmployeeIdQueryHandler GetSalariesHandler
+@inject AddSalaryCommandHandler AddSalaryHandler
+@inject UpdateSalaryCommandHandler UpdateSalaryHandler
+@inject NavigationManager Navigation
+
+<h3>Salary Management</h3>
+
+@if (SalaryRecords == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h4>Employee ID: @EmployeeId</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Base Salary</th>
+                <th>Bonus</th>
+                <th>Deductions</th>
+                <th>Payment Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var salary in SalaryRecords)
+            {
+                <tr>
+                    <td>@salary.BaseSalary</td>
+                    <td>@salary.Bonus</td>
+                    <td>@salary.Deductions</td>
+                    <td>@salary.PaymentDate.ToShortDateString()</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" @onclick="() => EditSalary(salary.Id)">Edit</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h5>Add or Edit Salary</h5>
+    <EditForm Model="EditingSalary" OnValidSubmit="SaveSalary">
+        <div class="mb-3">
+            <label for="baseSalary" class="form-label">Base Salary</label>
+            <InputNumber id="baseSalary" class="form-control" @bind-Value="EditingSalary.BaseSalary" />
+        </div>
+        <div class="mb-3">
+            <label for="bonus" class="form-label">Bonus</label>
+            <InputNumber id="bonus" class="form-control" @bind-Value="EditingSalary.Bonus" />
+        </div>
+        <div class="mb-3">
+            <label for="deductions" class="form-label">Deductions</label>
+            <InputNumber id="deductions" class="form-control" @bind-Value="EditingSalary.Deductions" />
+        </div>
+        <div class="mb-3">
+            <label for="paymentDate" class="form-label">Payment Date</label>
+            <InputDate id="paymentDate" class="form-control" @bind-Value="EditingSalary.PaymentDate" />
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Save</button>
+        <button type="button" class="btn btn-secondary mt-3" @onclick="BackToEmployeeList">Back</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public int EmployeeId { get; set; }
+    private List<Salary>? SalaryRecords;
+    private Salary EditingSalary = new Salary { EmployeeId = 0, BaseSalary = 0, Bonus = 0, Deductions = 0, PaymentDate = DateTime.Now };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadSalaryRecords();
+    }
+
+    private async Task LoadSalaryRecords()
+    {
+        SalaryRecords = await GetSalariesHandler.Handle(new GetSalariesByEmployeeIdQuery { EmployeeId = EmployeeId });
+    }
+
+    private void EditSalary(int id)
+    {
+        var salary = SalaryRecords.FirstOrDefault(s => s.Id == id);
+        if (salary != null)
+        {
+            EditingSalary = new Salary
+                {
+                    Id = salary.Id,
+                    EmployeeId = salary.EmployeeId,
+                    BaseSalary = salary.BaseSalary,
+                    Bonus = salary.Bonus,
+                    Deductions = salary.Deductions,
+                    PaymentDate = salary.PaymentDate
+                };
+        }
+    }
+
+    private async Task SaveSalary()
+    {
+        if (EditingSalary.Id == 0)
+        {
+            await AddSalaryHandler.Handle(new AddSalaryCommand
+                {
+                    EmployeeId = EmployeeId,
+                    BaseSalary = EditingSalary.BaseSalary,
+                    Bonus = EditingSalary.Bonus,
+                    Deductions = EditingSalary.Deductions,
+                    PaymentDate = EditingSalary.PaymentDate
+                });
+        }
+        else
+        {
+            await UpdateSalaryHandler.Handle(new UpdateSalaryCommand
+                {
+                    Id = EditingSalary.Id,
+                    BaseSalary = EditingSalary.BaseSalary,
+                    Bonus = EditingSalary.Bonus,
+                    Deductions = EditingSalary.Deductions,
+                    PaymentDate = EditingSalary.PaymentDate
+                });
+        }
+
+        await LoadSalaryRecords();
+        EditingSalary = new Salary { EmployeeId = EmployeeId, BaseSalary = 0, Bonus = 0, Deductions = 0, PaymentDate = DateTime.Now };
+    }
+
+    private void BackToEmployeeList()
+    {
+        Navigation.NavigateTo("/employees");
+    }
+}
+

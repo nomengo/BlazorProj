@@ -30,12 +30,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/AttendanceManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdHRlbmRhbmNlTWFuYWdlbWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateDepartment.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVEZXBhcnRtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateEmployee.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVFbXBsb3llZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateProject.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVQcm9qZWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/CreateTask.razor]
@@ -64,6 +72,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/ProjectManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9qZWN0TWFuYWdlbWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Pages/SalaryManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTYWxhcnlNYW5hZ2VtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nomen/source/repos/BlazorStajApplication/BlazorStajApplication/Components/Routes.razor]

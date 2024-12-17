@@ -3,128 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\handlers\\createtaskscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\handlers\\createtaskscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\createtask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\createtask.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\queries\\getallemployeesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\queries\\getallemployeesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\employeedelete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\employeedelete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\repositories\\itasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\getemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\getemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\handlers\\deleteemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\handlers\\deleteemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\createtaskscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\createtaskscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\infrastructure\\persistence\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\infrastructure\\persistence\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\employeeedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\employeeedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\handlers\\createdepartmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\handlers\\createdepartmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\queries\\handlers\\getemployeebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\queries\\handlers\\getemployeebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\departments.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\departments.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\queries\\getalltasksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\queries\\getalltasksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\createdepartmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\createdepartmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\salarymanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\salarymanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\components\\pages\\createdepartment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\components\\pages\\createdepartment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\queries\\getalldepartmentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\queries\\getalldepartmentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\infrastructure\\persistence\\salaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\infrastructure\\persistence\\salaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\handlers\\updatesalarycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\handlers\\updatesalarycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\domain\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\domain\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\updatesalarycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\updatesalarycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\queries\\handlers\\getsalariesbyemployeeidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\queries\\handlers\\getsalariesbyemployeeidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\queries\\getsalariesbyemployeeidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\queries\\getsalariesbyemployeeidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\handlers\\addsalarycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\handlers\\addsalarycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|c:\\users\\nomen\\source\\repos\\blazorstajapplication\\blazorstajapplication\\application\\commands\\addsalarycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA5A324-F232-4C59-A09E-509AED728ECF}|BlazorStajApplication\\BlazorStajApplication.csproj|solutionrelative:blazorstajapplication\\application\\commands\\addsalarycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,397 +54,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateTasksCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\CreateTasksCommandHandler.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\Handlers\\CreateTasksCommandHandler.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\CreateTasksCommandHandler.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\Handlers\\CreateTasksCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:05:25.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Project.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Project.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Project.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:29:41.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Salary.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Salary.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Salary.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Salary.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Salary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:30:27.388Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Department.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Department.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Department.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:29:29.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Employee.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Employee.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Employee.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwAwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:28:24.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwCsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T18:08:19.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateTask.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\CreateTask.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\CreateTask.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\CreateTask.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\CreateTask.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T12:11:19.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITasksRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Repositories\\ITasksRepository.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Repositories\\ITasksRepository.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Repositories\\ITasksRepository.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Repositories\\ITasksRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:11:54.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetAllEmployeesQuery.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetAllEmployeesQuery.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Queries\\GetAllEmployeesQuery.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetAllEmployeesQuery.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Queries\\GetAllEmployeesQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:26:33.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Tasks.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Tasks.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Tasks.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Tasks.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Tasks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:30:06.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateTasksCommand.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\CreateTasksCommand.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\CreateTasksCommand.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\CreateTasksCommand.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\CreateTasksCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:04:30.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetEmployee.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T12:37:14.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DeleteEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\DeleteEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\DeleteEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\DeleteEmployeeCommand.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\DeleteEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T14:19:35.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeDelete.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\EmployeeDelete.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\EmployeeDelete.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\EmployeeDelete.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\EmployeeDelete.razor",
-              "ViewState": "AgIAABQAAAAAAAAAAAAawBMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T14:21:57.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteEmployeeCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\DeleteEmployeeCommandHandler.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\Handlers\\DeleteEmployeeCommandHandler.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\DeleteEmployeeCommandHandler.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\Handlers\\DeleteEmployeeCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T14:20:12.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TasksRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Infrastructure\\Persistence\\TasksRepository.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Infrastructure\\Persistence\\TasksRepository.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Infrastructure\\Persistence\\TasksRepository.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Infrastructure\\Persistence\\TasksRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:12:41.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "BlazorStajApplication\\ServiceCollectionExtensions.cs",
               "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\ServiceCollectionExtensions.cs",
               "RelativeToolTip": "BlazorStajApplication\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T14:01:38.989Z"
+              "WhenOpened": "2024-12-17T12:10:41.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EmployeeEdit.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\EmployeeEdit.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\EmployeeEdit.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\EmployeeEdit.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\EmployeeEdit.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SalaryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Infrastructure\\Persistence\\SalaryRepository.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Infrastructure\\Persistence\\SalaryRepository.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Infrastructure\\Persistence\\SalaryRepository.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Infrastructure\\Persistence\\SalaryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:11:37.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaryManagement.razor",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\SalaryManagement.razor",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\SalaryManagement.razor",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\SalaryManagement.razor",
+              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\SalaryManagement.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T13:17:27.746Z"
+              "WhenOpened": "2024-12-17T12:13:34.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateDepartmentCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\CreateDepartmentCommandHandler.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\Handlers\\CreateDepartmentCommandHandler.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\CreateDepartmentCommandHandler.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\Handlers\\CreateDepartmentCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:52:03.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetEmployeeByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\Handlers\\GetEmployeeByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Queries\\Handlers\\GetEmployeeByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\Handlers\\GetEmployeeByIdQueryHandler.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Queries\\Handlers\\GetEmployeeByIdQueryHandler.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T13:38:37.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CreateEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\CreateEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\CreateEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\CreateEmployeeCommand.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\CreateEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:45:51.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateEmployee.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\CreateEmployee.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\CreateEmployee.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\CreateEmployee.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\CreateEmployee.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T12:30:21.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Departments.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\Departments.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\Departments.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\Departments.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\Departments.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T12:00:26.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GetAllTasksQuery.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetAllTasksQuery.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Queries\\GetAllTasksQuery.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetAllTasksQuery.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Queries\\GetAllTasksQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:07:35.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateDepartmentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\CreateDepartmentCommand.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\CreateDepartmentCommand.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\CreateDepartmentCommand.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\CreateDepartmentCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:51:04.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorStajApplication\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowCoAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T13:02:10.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CreateDepartment.razor",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\CreateDepartment.razor",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\CreateDepartment.razor",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\CreateDepartment.razor",
-              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\CreateDepartment.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T11:58:17.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GetAllDepartmentsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetAllDepartmentsQuery.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Queries\\GetAllDepartmentsQuery.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetAllDepartmentsQuery.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Application\\Queries\\GetAllDepartmentsQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:53:31.05Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:16:18.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Attribute.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Attribute.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Attribute.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Attribute.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Attribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:31:24.154Z"
+              "DocumentIndex": 0,
+              "Title": "GetEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
+              "RelativeToolTip": "BlazorStajApplication\\Components\\Pages\\GetEmployee.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T12:37:14.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Attendance.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Domain\\Entities\\Attendance.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Domain\\Entities\\Attendance.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Domain\\Entities\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UpdateSalaryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\UpdateSalaryCommandHandler.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\Handlers\\UpdateSalaryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\UpdateSalaryCommandHandler.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\Handlers\\UpdateSalaryCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:30:16.733Z"
+              "WhenOpened": "2024-12-17T12:09:49.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorStajApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Program.cs",
-              "RelativeToolTip": "BlazorStajApplication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UpdateSalaryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\UpdateSalaryCommand.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\UpdateSalaryCommand.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\UpdateSalaryCommand.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\UpdateSalaryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:35:44.64Z"
+              "WhenOpened": "2024-12-17T12:09:15.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetSalariesByEmployeeIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\Handlers\\GetSalariesByEmployeeIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Queries\\Handlers\\GetSalariesByEmployeeIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\Handlers\\GetSalariesByEmployeeIdQueryHandler.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Application\\Queries\\Handlers\\GetSalariesByEmployeeIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:08:18.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetSalariesByEmployeeIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetSalariesByEmployeeIdQuery.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Queries\\GetSalariesByEmployeeIdQuery.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Queries\\GetSalariesByEmployeeIdQuery.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Application\\Queries\\GetSalariesByEmployeeIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:07:35.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddSalaryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\AddSalaryCommandHandler.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\Handlers\\AddSalaryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\Handlers\\AddSalaryCommandHandler.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\Handlers\\AddSalaryCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:06:35.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddSalaryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\AddSalaryCommand.cs",
+              "RelativeDocumentMoniker": "BlazorStajApplication\\Application\\Commands\\AddSalaryCommand.cs",
+              "ToolTip": "C:\\Users\\nomen\\source\\repos\\BlazorStajApplication\\BlazorStajApplication\\Application\\Commands\\AddSalaryCommand.cs",
+              "RelativeToolTip": "BlazorStajApplication\\Application\\Commands\\AddSalaryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:05:58.293Z",
+              "EditorCaption": ""
             }
           ]
         },

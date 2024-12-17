@@ -32,9 +32,12 @@ else
                     <td>@employee.LastName</td>
                     <td>@employee.Department</td>
                     <td>@employee.StartDate.ToShortDateString()</td>
+                    <td></td>
                     <td>
                         <a class="btn btn-warning btn-sm" href="/employee/edit/@employee.Id">Edit</a>
                         <a class="btn btn-danger btn-sm" href="/employee/delete/@employee.Id">Delete</a>
+                        <a class="btn btn-success btn-sm" href="/attendance-management/@employee.Id">Attendance</a>
+                        <a class="btn btn-success btn-sm" href="/salary-management/@employee.Id">Salary</a>
                     </td>
                 </tr>
             }

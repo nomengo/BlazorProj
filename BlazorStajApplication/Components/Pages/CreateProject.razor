@@ -1,0 +1,66 @@
+﻿@page "/create-project"
+@using BlazorStajApplication.Application.Commands
+@using BlazorStajApplication.Application.Commands.Handlers
+@inject CreateProjectCommandHandler CreateProjectHandler
+@inject NavigationManager Navigation
+
+<h3>Create Project</h3>
+
+<EditForm Model="NewProject" OnValidSubmit="HandleValidSubmit">
+    <div class="mb-3">
+        <label for="projectName" class="form-label">Project Name</label>
+        <InputText id="projectName" class="form-control" @bind-Value="NewProject.Name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="startDate" class="form-label">Start Date</label>
+        <InputDate id="startDate" class="form-control" @bind-Value="NewProject.StartDate" />
+    </div>
+
+    <div class="mb-3">
+        <label for="endDate" class="form-label">End Date</label>
+        <InputDate id="endDate" class="form-control" @bind-Value="NewProject.EndDate" />
+    </div>
+
+    <div class="mb-3">
+        <label for="status" class="form-label">Status</label>
+        <InputText id="status" class="form-control" @bind-Value="NewProject.Status" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Project</button>
+</EditForm>
+
+@if (SuccessMessage != null)
+{
+    <div class="alert alert-success mt-3">@SuccessMessage</div>
+}
+
+@if (ErrorMessage != null)
+{
+    <div class="alert alert-danger mt-3">@ErrorMessage</div>
+}
+
+@code {
+    private CreateProjectCommand NewProject = new CreateProjectCommand();
+    private string? SuccessMessage;
+    private string? ErrorMessage;
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await CreateProjectHandler.Handle(NewProject);
+            SuccessMessage = "Project created successfully!";
+            ErrorMessage = null;
+
+            // Reset form
+            NewProject = new CreateProjectCommand();
+        }
+        catch (Exception ex)
+        {
+            SuccessMessage = null;
+            ErrorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+}
+

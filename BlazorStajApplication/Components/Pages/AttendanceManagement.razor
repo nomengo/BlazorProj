@@ -1,0 +1,128 @@
+﻿@page "/attendance-management/{employeeId:int}"
+@using BlazorStajApplication.Domain.Entities
+@using BlazorStajApplication.Application.Commands.Handlers
+@using BlazorStajApplication.Application.Queries.Handlers
+@using BlazorStajApplication.Application.Queries
+@using BlazorStajApplication.Application.Commands
+@inject GetAttendanceByEmployeeIdQueryHandler GetAttendanceHandler
+@inject AddAttendanceCommandHandler AddAttendanceHandler
+@inject UpdateAttendanceCommandHandler UpdateAttendanceHandler
+@inject NavigationManager Navigation
+
+<h3>Attendance Management</h3>
+
+@if (AttendanceRecords == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h4>Employee ID: @EmployeeId</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Entry Time</th>
+                <th>Exit Time</th>
+                <th>Is Absent</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var record in AttendanceRecords)
+            {
+                <tr>
+                    <td>@record.EntryTime.ToString("g")</td>
+                    <td>@(record.ExitTime.HasValue ? record.ExitTime.Value.ToString("g") : "N/A")</td>
+                    <td>@(record.IsAbsent ? "Yes" : "No")</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" @onclick="() => EditAttendance(record.Id)">Edit</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h5>Add or Edit Attendance</h5>
+    <EditForm Model="EditingAttendance" OnValidSubmit="SaveAttendance">
+        <div class="mb-3">
+            <label for="entryTime" class="form-label">Entry Time</label>
+            <InputDate id="entryTime" class="form-control" @bind-Value="EditingAttendance.EntryTime" />
+        </div>
+        <div class="mb-3">
+            <label for="exitTime" class="form-label">Exit Time</label>
+            <InputDate id="exitTime" class="form-control" @bind-Value="EditingAttendance.ExitTime" />
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="isAbsent" @bind="EditingAttendance.IsAbsent" />
+            <label class="form-check-label" for="isAbsent">Is Absent</label>
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Save</button>
+        <button type="button" class="btn btn-secondary mt-3" @onclick="BackToEmployeeList">Back</button>
+    </EditForm>
+}
+@code {
+    [Parameter] public int EmployeeId { get; set; }
+    private List<Attendance>? AttendanceRecords;
+    private Attendance EditingAttendance = new Attendance { EmployeeId = 0, EntryTime = DateTime.Now, ExitTime = null, IsAbsent = false };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadAttendanceRecords();
+    }
+
+    private async Task LoadAttendanceRecords()
+    {
+        AttendanceRecords = await GetAttendanceHandler.Handle(new GetAttendanceByEmployeeIdQuery { EmployeeId = EmployeeId });
+    }
+
+    private void EditAttendance(int id)
+    {
+        var record = AttendanceRecords.FirstOrDefault(a => a.Id == id);
+        if (record != null)
+        {
+            EditingAttendance = new Attendance
+                {
+                    Id = record.Id,
+                    EmployeeId = record.EmployeeId,
+                    EntryTime = record.EntryTime,
+                    ExitTime = record.ExitTime,
+                    IsAbsent = record.IsAbsent
+                };
+        }
+    }
+
+    private async Task SaveAttendance()
+    {
+        if (EditingAttendance.Id == 0)
+        {
+            // Yeni kayıt
+            await AddAttendanceHandler.Handle(new AddAttendanceCommand
+                {
+                    EmployeeId = EmployeeId,
+                    EntryTime = EditingAttendance.EntryTime,
+                    ExitTime = EditingAttendance.ExitTime,
+                    IsAbsent = EditingAttendance.IsAbsent
+                });
+        }
+        else
+        {
+            // Güncelleme
+            await UpdateAttendanceHandler.Handle(new UpdateAttendanceCommand
+                {
+                    Id = EditingAttendance.Id,
+                    EntryTime = EditingAttendance.EntryTime,
+                    ExitTime = EditingAttendance.ExitTime,
+                    IsAbsent = EditingAttendance.IsAbsent
+                });
+        }
+
+        // Kaydı yaptıktan sonra listeyi yenile
+        await LoadAttendanceRecords();
+        EditingAttendance = new Attendance { EmployeeId = EmployeeId, EntryTime = DateTime.Now, ExitTime = null, IsAbsent = false };
+    }
+
+    private void BackToEmployeeList()
+    {
+        Navigation.NavigateTo("/employees");
+    }
+}

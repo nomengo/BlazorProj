@@ -34,15 +34,6 @@
                 .Property(a => a.Value)
                 .IsRequired();*/
 
-            // Project ve Employee arasındaki ilişki
-            /*
-            modelBuilder.Entity<Project>()
-                .HasOne(p => p.ResponsibleEmployee)
-                .WithMany()
-                .HasForeignKey(p => p.ResponsibleEmployeeId)
-                .OnDelete(DeleteBehavior.Restrict);
-            */
-
             // Project ile Employee arasında One-to-Many ilişki
             modelBuilder.Entity<Employee>()
                 .HasOne(e => e.Project) // Bir Employee'nin bir Project'i olabilir
