@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorStajApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c24cd1fb7bba0280caef0ac39c47efc5fba240d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+172c4ff5ed255b887a833559a8bfa610abe464d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorStajApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorStajApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

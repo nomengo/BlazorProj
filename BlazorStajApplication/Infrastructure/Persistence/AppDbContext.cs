@@ -14,25 +14,17 @@
         public DbSet<Tasks> Tasks { get; set; }
         public DbSet<Attendance> Attendances { get; set; }
         public DbSet<Salary> Salaries { get; set; }
-        public DbSet<Attribute> Attributes { get; set; }
+        public DbSet<EmployeeAttribute> Attributes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Employee ve Attribute arasındaki ilişki (EAV yapısı)
-            modelBuilder.Entity<Attribute>()
-                .HasOne(a => a.Employee)
-                .WithMany(e => e.Attributes)
-                .HasForeignKey(a => a.EmployeeId)
-                .OnDelete(DeleteBehavior.Cascade);
 
-            // Attribute Key alanını zorunlu yapalım
-            /*modelBuilder.Entity<Attribute>()
-                .Property(a => a.Key)
-                .IsRequired();
-
-            modelBuilder.Entity<Attribute>()
-                .Property(a => a.Value)
-                .IsRequired();*/
+            // Employee ve Attribute arasındaki ilişkisi (One-to-Many)
+            modelBuilder.Entity<EmployeeAttribute>()
+                .HasOne(a => a.Employee) // Her Attribute bir Employee'ye ait
+                .WithMany(e => e.Attributes) // Her Employee'nin birden fazla Attribute'u olabilir
+                .HasForeignKey(a => a.EmployeeId) // Foreign Key tanımı
+                .OnDelete(DeleteBehavior.Cascade); // Employee silindiğinde Attribute'ları da sil
 
             // Project ile Employee arasında One-to-Many ilişki
             modelBuilder.Entity<Employee>()

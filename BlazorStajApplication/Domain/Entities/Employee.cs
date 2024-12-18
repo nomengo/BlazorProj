@@ -7,7 +7,7 @@
         public string LastName { get; set; }  // Çalışanın soyadı
         public string Department { get; set; } // Çalışanın bağlı olduğu departman
         public DateTime StartDate { get; set; } // İşe başlama tarihi
-        public List<Attribute> Attributes { get; set; } // EAV için dinamik nitelikler
+        public List<EmployeeAttribute> Attributes { get; set; } // EAV için dinamik nitelikler
                                                         // One-to-Many ilişki
         public int? ProjectId { get; set; } // Foreign Key (nullable)
         public Project? Project { get; set; } // Navigation Property

@@ -16,6 +16,14 @@ namespace BlazorStajApplication
             services.AddScoped<IProjectRepository, ProjectRepository>();
             services.AddScoped<IAttendanceRepository, AttendanceRepository>();
             services.AddScoped<ISalaryRepository, SalaryRepository>();
+            services.AddScoped<IAttributeRepository, AttributeRepository>();
+
+
+            //Attribute
+            services.AddScoped<AddAttributeCommandHandler>();
+            services.AddScoped<UpdateAttributeCommandHandler>();
+
+            services.AddScoped<GetAttributesByEmployeeIdQueryHandler>();
 
 
             //Department

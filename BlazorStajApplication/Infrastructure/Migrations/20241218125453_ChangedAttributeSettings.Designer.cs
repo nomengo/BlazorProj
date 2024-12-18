@@ -4,6 +4,7 @@ using BlazorStajApplication.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazorStajApplication.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241218125453_ChangedAttributeSettings")]
+    partial class ChangedAttributeSettings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,6 +50,32 @@ namespace BlazorStajApplication.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("Attendances");
+                });
+
+            modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Attribute", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("Attributes");
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Department", b =>
@@ -104,32 +133,6 @@ namespace BlazorStajApplication.Migrations
                     b.HasIndex("ProjectId");
 
                     b.ToTable("Employees");
-                });
-
-            modelBuilder.Entity("BlazorStajApplication.Domain.Entities.EmployeeAttribute", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Key")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Value")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.ToTable("Attributes");
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Project", b =>
@@ -229,17 +232,7 @@ namespace BlazorStajApplication.Migrations
                     b.Navigation("Employee");
                 });
 
-            modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Employee", b =>
-                {
-                    b.HasOne("BlazorStajApplication.Domain.Entities.Project", "Project")
-                        .WithMany("Employees")
-                        .HasForeignKey("ProjectId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
-                    b.Navigation("Project");
-                });
-
-            modelBuilder.Entity("BlazorStajApplication.Domain.Entities.EmployeeAttribute", b =>
+            modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Attribute", b =>
                 {
                     b.HasOne("BlazorStajApplication.Domain.Entities.Employee", "Employee")
                         .WithMany("Attributes")
@@ -248,6 +241,16 @@ namespace BlazorStajApplication.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Employee", b =>
+                {
+                    b.HasOne("BlazorStajApplication.Domain.Entities.Project", "Project")
+                        .WithMany("Employees")
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Project");
                 });
 
             modelBuilder.Entity("BlazorStajApplication.Domain.Entities.Salary", b =>
